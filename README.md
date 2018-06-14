@@ -148,7 +148,7 @@ allprojects {
  }
  
  //bottom
- + apply plugin: "com.google.gms.google-services"
++ apply plugin: "com.google.gms.google-services"
 ```
 If you are using other firebase libraries, check this for solving dependency conflicts https://github.com/evollu/react-native-fcm/blob/master/Examples/simple-fcm-client/android/app/build.gradle#L133
 
